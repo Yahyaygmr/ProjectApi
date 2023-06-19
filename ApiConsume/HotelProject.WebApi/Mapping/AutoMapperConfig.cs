@@ -12,7 +12,7 @@ namespace HotelProject.WebApi.Mapping
             CreateMap<Room, RoomAddDto>();
 
             CreateMap<RoomUpdateDto, Room>().ReverseMap(); /*burde reversemap eklediğimiz için yukarıdaki gibi 
-                                                            iki kere yazmaya gerek kalmadı.Otomatik olarak tersini de almış oluyor */
+                                                            iki kere yazmaya gerek kalmadı.Otomatik olarak tersini de almış                                oluyor */
         }
     }
 }

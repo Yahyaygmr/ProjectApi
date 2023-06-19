@@ -11,7 +11,7 @@ namespace HotelProject.DtoLayer.RoomDto
     {
         [Required(ErrorMessage = "Lütfen Oda Numarasını Giriniz")]
         public string RoomNumber { get; set; }
-        public string RoomCoverImage { get; set; }
+        public string? RoomCoverImage { get; set; }
         [Required(ErrorMessage = "Lütfen Fiyat Giriniz")]
         public double Price { get; set; }
         [Required(ErrorMessage = "Lütfen Oda Başlığı Giriniz")]
@@ -20,7 +20,7 @@ namespace HotelProject.DtoLayer.RoomDto
         public string BadCount { get; set; }
         [Required(ErrorMessage = "Lütfen Banyo Sayısı Giriniz")]
         public string BathCount { get; set; }
-        public string Wifi { get; set; }
-        public string Description { get; set; }
+        public string? Wifi { get; set; }
+        public string? Description { get; set; }
     }
 }
