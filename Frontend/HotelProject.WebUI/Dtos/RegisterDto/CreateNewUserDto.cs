@@ -14,6 +14,9 @@ namespace HotelProject.WebUI.Dtos.RegisterDto
         public string Username { get; set; }
 
         [Required(ErrorMessage = "Bu Alan Zoruludur")]
+        public string City { get; set; }
+
+        [Required(ErrorMessage = "Bu Alan Zoruludur")]
         public string Mail { get; set; }
 
         [Required(ErrorMessage = "Bu Alan Zoruludur")]
