@@ -40,7 +40,8 @@
         @await Component.InvokeAsync("TeamPartial")
         <!-- Team End -->
         <!-- Newsletter Start -->
-        @await Component.InvokeAsync("NewsletterPartial")
+        @await Html.PartialAsync("_SubscribePartial")
+        @*await Component.InvokeAsync("NewsletterPartial")*@
         <!-- Newsletter Start -->
         <!-- Footer Start -->
         @await Component.InvokeAsync("FooterPartial")
