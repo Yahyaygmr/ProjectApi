@@ -29,7 +29,7 @@ namespace HotelProject.WebUI.Controllers
             var responseMessage = await client.PostAsync("http://localhost:5027/api/Booking", content);
             if (responseMessage.IsSuccessStatusCode)
             {
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", "Default");
             }
             return View();
         }
